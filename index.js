@@ -28,7 +28,7 @@ letras.forEach( (value,index) =>{
 
 console.log("************Ejercicio************".rainbow)
 console.log("Del siguiente arreglo".bold,letras)
-console.log("¿Las letras se repitieron?".bold.white,repeatFlag)
+console.log("¿Alguna de las letras se repitió?".bold.white,repeatFlag)
 
 for(i=0;i<summary.length;i++){
   console.log("La letra",summary[i].bold.magenta,"aparece",summary[i+1],"veces")
