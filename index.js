@@ -3,4 +3,5 @@
 
 const colors = require('colors')
 console.log('Hola Veronica Corona'.rainbow); // rainbow
-console.log(colors.rainbow('Hola Veronica Corona')); // rainbow
+
+console.log(colors.white.bold.underline.bgBrightRed('Hola Veronica Corona')); // rainbow
